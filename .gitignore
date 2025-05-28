@@ -1,0 +1,29 @@
+# Conda environment & virtualenv
+.env/
+.venv/
+env/
+venv/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+
+# System files
+.DS_Store
+
+# IDE/Editor files
+.vscode/
+.idea/
+
+# Environment & Secrets
+.env
+environment.yml
+
+# Logs
+*.log
+
+# Model checkpoints (optional)
+*.pt
+*.ckpt
+

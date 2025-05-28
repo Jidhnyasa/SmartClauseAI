@@ -1,0 +1,31 @@
+# Core Python & NLP libraries
+transformers==4.40.1
+datasets==2.19.1
+sentence-transformers==2.6.1
+
+# PDF and DOCX parsing
+pdfplumber==0.11.0
+python-docx==1.1.0
+
+# Vector store and retrieval
+faiss-cpu==1.8.0
+langchain==0.1.19
+
+# App UI
+streamlit==1.35.0
+
+# Utilities
+scikit-learn==1.4.2
+pandas==2.2.2
+numpy==1.26.4
+python-dotenv==1.0.1
+
+# Optional for OpenAI (RAG generation)
+openai==1.30.1
+
+# Backend (optional)
+fastapi==0.110.2
+uvicorn==0.30.1
+
+# For downloading Hugging Face models (optional if not using CLI)
+huggingface-hub==0.23.1
