@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+
+# Environment and config
+.env
+*.yaml
+*.yml
+*.log
+
+# VSCode & IDE configs
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+
+# Model checkpoints and results
+results/
+logs/
+*.ckpt
+*.pt
+
+# HuggingFace cache
+huggingface/
